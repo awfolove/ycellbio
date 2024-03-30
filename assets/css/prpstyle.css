@@ -1,0 +1,272 @@
+/* 남색 262262 */
+
+ul {padding-inline-start: 0px;}
+h2 { margin-block-start: 0;
+    margin-block-end: 0;}
+
+html {margin:0;}
+
+a {
+  color: #7986cb;
+  text-decoration: none;
+  outline: none;
+}
+a:hover,
+a:focus {
+  color: #3f51b5;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #f0f0f0; /* 밝은 배경색 */
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .logo {
+    padding: 10px; /* 로고 주변 여백 설정 */
+  }
+  
+  .logo img {
+    max-width: 250px;
+    height: auto;
+    
+  }
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .line1, .line2, .line3 {
+    width: 25px;
+    height: 2px;
+    background-color: #000;
+    margin: 4px 0;
+  }
+
+  /* Section styles */
+  .section-1 {
+    background-image: url('../images/background-3.png');
+    background-size: cover;
+    background-position: center;
+    padding: 5vw 2vw; /* 반응형 단위 사용 */
+    text-align: left;
+    height: 300px; 
+  }
+
+  .section-1 .section-content {
+    max-width: 90vw; /* 반응형 단위 사용 */
+    margin: 150px 0 0 20vw;
+    color: #fff;
+  }
+
+  .section-1 .section-content h2 {
+    font-size: 3.3vw; /* 반응형 단위 사용 */
+    font-weight: 500;
+    line-height: 0.3;
+  }
+
+  .section-1 .section-content p {
+    font-size: 1.5vw; /* 반응형 단위 사용 */
+    font-weight: 300;
+  }
+
+
+
+.section-2 {
+    padding: 50px 20px;
+    text-align: center;
+    margin:10px;
+}
+
+.section-2 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-2 p {
+  font-weight:300;
+}
+
+
+.section-2 img {
+  max-width: 1000px;
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    color: #262262;
+    padding: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size:400;
+    background-color: #f0f0f0;
+}
+
+.footer img {
+    width:300px;
+}
+
+.footer .address {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer .contact-link {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+  
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    background-color: #f0f0f0;
+    left: 0;
+    padding-left: 30px;
+  }
+
+    .nav-links.nav-active {
+      display: block; /* 버거 아이콘이 클릭되었을 때 보이도록 설정 */
+      width: 100%;
+    }
+
+  .nav-links li {
+    margin: 20px 0;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  h2 { font-size: 6vw;}
+  
+
+    .section-1 {
+      text-align: center;
+    }
+
+    .section-1 .section-content {
+      margin:150px 0 0 0; }
+
+      .section-1 .section-content h2 {
+        font-size: 6vw;
+}
+
+.section-1 .section-content p {
+font-size: 3vw;
+}
+
+.section-2 {
+  padding: 50px 20px 20px 20px ;
+  margin:0px;
+}
+
+.section-2 .image-box {
+width: 100%;
+height: 100px; /* 이미지 상자의 높이 설정 */
+
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+  
+}
+
+
+@media screen and (max-width: 500px) {
+
+ 
+    
+
+}
+
+@media screen and (max-width: 300px) {
+
+  .logo img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  
+    
+}
+
+@media screen and (max-width: 200px) {
+
+  .logo img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
