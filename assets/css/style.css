@@ -68,25 +68,25 @@ body {
     background-image: url('../images/background-3.png');
     background-size: cover;
     background-position: center;
-    padding: 5vw 2vw; /* 반응형 단위 사용 */
+    padding: 5vw 1vw; 
     text-align: left;
     height: 300px; 
   }
 
   .section-1 .section-content {
-    max-width: 90vw; /* 반응형 단위 사용 */
-    margin: 150px 0 0 20vw;
+    max-width: 90vw; 
+    margin: 125px 0 0 15vw;
     color: #fff;
   }
 
   .section-1 .section-content h2 {
-    font-size: 3.3vw; /* 반응형 단위 사용 */
+    font-size: 3.5vw; 
     font-weight: 500;
     line-height: 0.3;
   }
 
   .section-1 .section-content p {
-    font-size: 1.5vw; /* 반응형 단위 사용 */
+    font-size: 1.7vw; 
     font-weight: 300;
   }
 
@@ -109,7 +109,7 @@ body {
     flex-wrap: wrap;
     justify-content: center; /* 요소들을 수평으로 중앙 정렬 */
     max-width: 1000px; 
-    margin: 0 auto; /* 가운데 정렬 */
+    margin: 0 auto;
 }
 
 .section-2 .gallery-item {
@@ -232,7 +232,7 @@ height: 500px;
 }
 
 .section-5 .image-box {
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .section-5 .image-box img {
@@ -363,7 +363,7 @@ height: 500px;
       padding-left: 30px;
     }
   
-      .nav-links.nav-active {
+    .nav-links.nav-active {
         display: block; /* 버거 아이콘이 클릭되었을 때 보이도록 설정 */
         width: 100%;
       }
@@ -379,36 +379,34 @@ height: 500px;
     h2 { font-size: 6vw;}
     
 
-      .section-1 {
+    .section-1 {
         text-align: center;
       }
 
-      .section-1 .section-content {
-        margin:150px 0 0 0; }
+    .section-1 .section-content {
+      max-width: none;
+        margin:130px 0 0 0; }
 
-        .section-1 .section-content h2 {
-          font-size: 6vw;
+    .section-1 .section-content h2 {
+          font-size: 60px;
 }
 
-.section-1 .section-content p {
-  font-size: 3vw;
+    .section-1 .section-content p {
+  font-size: 25px;
 }
-  
 
-
-
-
-.section-2 .image-box {
+    .section-2 .image-box {
   width: 100%;
   height: 100px; /* 이미지 상자의 높이 설정 */
  
 }
 
+.section-3 {
+  padding: 10px 0;}
 
 
 
-
-.section-3 .image-box {
+    .section-3 .image-box {
   height: 50px;
   width: 50px;
   overflow: hidden; 
@@ -424,13 +422,17 @@ height: 500px;
   border-radius: 100%;
 }
 
-.section-3 .image-box img {
+    .section-3 .image-box img {
   height: 100%;
   width: 100%;
   display: block;
 }
 
-.section-3 .gallery-item p {
+.section-3 .gallery-item {
+  margin:5px;
+}
+
+    .section-3 .gallery-item p {
   display: block;   
   float: none;
   margin-left: 0px;
@@ -440,10 +442,9 @@ height: 500px;
 }
 
 
-.section-5 .text h2{
+    .section-5 .text h2{
   font-size: 6vw;
 }
-
 
     .section-5 .image-box {
         width: 100%;
@@ -459,28 +460,72 @@ height: 500px;
       padding: 0 20px 0 20px;
   }
   
-
   
   .section-9 .text p{
       font-size: 15px;
       line-height: 20px;
   }
-
-
-
-
-
     
   }
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 568px) {
+
+    .section-1 {
+      text-align: center;
+    }
+
+  .section-1 .section-content {
+    max-width: none;
+      margin:130px 0 0 0; }
+
+  .section-1 .section-content h2 {
+        font-size: 35px;
+}
+
+  .section-1 .section-content p {
+font-size: 15px;
+}
+
+.section-2 .gallery-item p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.section-3 .gallery-item p {
+  display: block;
+  float: none;
+  margin-left: 0px;
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 300;}
 
     .section-4 iframe {
       width: 300px;
       height: 250px;
       }
       
+      .section-5 {
+        height: 350px;
+        text-align: center;
+    }
+
+    .section-6 p, .section-7 p, .section-8 p {
+      font-weight: 300;
+      line-height: 25px;
+      margin-top: 20px;
+      font-size: 12px;
+      padding: 0 20px 0 20px;
+  }
+
+  .section-9 {
+    padding: 20px;
+
+}
+
+.section-9 .text p {
+  line-height: 22px;
+}
 
   }
 
@@ -490,6 +535,16 @@ height: 500px;
       max-width: 150px;
       height: auto;
     }
+
+    
+  .section-1 .section-content h2 {
+    font-size: 22px;
+}
+
+.section-1 .section-content p {
+font-size: 12px;
+}
+
 
     .section-4 iframe {
       width: 200px;
@@ -509,6 +564,14 @@ height: 500px;
       max-width: 100px;
       height: auto;
     }
+
+    .section-1 .section-content h2 {
+      font-size: 18px;
+  }
+  
+  .section-1 .section-content p {
+  font-size: 10px;
+  }
 
     .section-4 iframe {
       width: 100px;
