@@ -78,25 +78,25 @@ body {
     background-image: url('../images/background-3.png');
     background-size: cover;
     background-position: center;
-    padding: 5vw 2vw; /* 반응형 단위 사용 */
+    padding: 5vw 1vw; 
     text-align: left;
     height: 300px; 
   }
 
   .section-1 .section-content {
-    max-width: 90vw; /* 반응형 단위 사용 */
-    margin: 150px 0 0 20vw;
+    max-width: 90vw; 
+    margin: 125px 0 0 15vw;
     color: #fff;
   }
 
   .section-1 .section-content h2 {
-    font-size: 3.3vw; /* 반응형 단위 사용 */
+    font-size: 3.5vw; 
     font-weight: 500;
     line-height: 0.3;
   }
 
   .section-1 .section-content p {
-    font-size: 1.5vw; /* 반응형 단위 사용 */
+    font-size: 1.7vw; 
     font-weight: 300;
   }
 
@@ -147,7 +147,8 @@ body {
 }
 
 .footer img {
-    width:300px;
+  max-width: 300px;
+  width: 30%;
 }
 
 .footer .address {
@@ -189,20 +190,20 @@ body {
 
   h2 { font-size: 6vw;}
   
+  .section-1 {
+    text-align: center;
+  }
 
-    .section-1 {
-      text-align: center;
-    }
+.section-1 .section-content {
+  max-width: none;
+    margin:130px 0 0 0; }
 
-    .section-1 .section-content {
-      margin:150px 0 0 0; }
-
-      .section-1 .section-content h2 {
-        font-size: 6vw;
+.section-1 .section-content h2 {
+      font-size: 60px;
 }
 
 .section-1 .section-content p {
-font-size: 3vw;
+font-size: 25px;
 }
 
 .section-2 {
@@ -219,21 +220,29 @@ height: 100px; /* 이미지 상자의 높이 설정 */
 .footer {
   margin-top: 20px;
 }
-
-
-
-
-
-
-
-
   
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 568px) {
 
  
+  .section-1 {
+    text-align: center;
+  }
+
+.section-1 .section-content {
+  max-width: none;
+    margin:130px 0 0 0; }
+
+.section-1 .section-content h2 {
+      font-size: 35px;
+}
+
+.section-1 .section-content p {
+font-size: 15px;
+}
+
     
 
 }
@@ -244,6 +253,14 @@ height: 100px; /* 이미지 상자의 높이 설정 */
     max-width: 150px;
     height: auto;
   }
+ 
+  .section-1 .section-content h2 {
+    font-size: 22px;
+}
+
+.section-1 .section-content p {
+font-size: 12px;
+}
 
   
     
@@ -257,7 +274,13 @@ height: 100px; /* 이미지 상자의 높이 설정 */
   }
 
   
-    
+  .section-1 .section-content h2 {
+    font-size: 18px;
+}
+
+.section-1 .section-content p {
+font-size: 10px;
+}
 }
 
 
