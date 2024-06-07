@@ -11,10 +11,11 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     width:100%;
+    color: #5c5c5c;
   }
   
   .navbar {
-    background-color: #212121;
+    background-color: #85b857;
     padding: 10px 0;
     height:50px;
     position:fixed;
@@ -52,6 +53,7 @@ body {
     cursor: pointer;
   }
 
+  
  
 
   /* Section styles */
@@ -68,11 +70,11 @@ body {
   .section-1 .section-content {
     color: #000;
     text-align: center;
-    margin-top:250px;
+    margin-top:350px;
   }
 
   .section-1 .section-content h2 {
-    font-size: 60px; 
+    font-size: 70px; 
     font-weight: 900;
     text-shadow: -3px 0px #fff, 0px 3px #fff, 3px 0px #fff, 0px -3px #fff; ;
   }
@@ -150,7 +152,7 @@ margin-bottom:50px;}
 
 .section-4 img {
   width: 150px;
-  margin:10px;
+  margin:20px;
 }
 
 
@@ -175,7 +177,7 @@ margin-bottom:50px;}
 }
 
 .section-5 p, .section-6 p, .section-7 p, .section-8 p {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -206,7 +208,7 @@ margin-bottom:50px;}
     text-align: center;
     line-height: 20px;
     font-size:400;
-    background-color: #212121;
+    background-color: #85b857;
 }
 
 .footer img {
